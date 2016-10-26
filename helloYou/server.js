@@ -74,6 +74,13 @@ io.on('connect', function(socket) {
         serial.write('L');
     });
 
+// SWOOP (To be built out, currently just one not properly working function)
+    socket.on('swoopA', function() {
+        console.log('swoopA');
+        serial.write('A');
+    });
+
+
 //STOP AND RESET
     socket.on('stop', function() {
         console.log('stop');

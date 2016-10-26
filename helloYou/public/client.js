@@ -40,6 +40,12 @@ function lookaround() {
 }
 
 
+// SWOOP (To be built out, currently just one not properly working function)
+function lookaround() {
+    socket.emit('swoopA');
+}
+
+
 // STOP FUNCTIONS
 function stop() {
     socket.emit('stop');
