@@ -17,10 +17,15 @@ Look inside Arduino Sketch for the behavior triggering characters and correspond
 1, 2, 3         : Look at person 1, 2 and 3 respectively (rotation)
 
 M, N, B         : Lean forward, upright and backward respectively (tilt)
+
 W               : Wiggle (Shake tilt back and forth), has to be exited (space key)             <- Needs work (Slow down)
+
 L               : Lookaround (Rotate back and forth), has to be exited (space key)             <- Needs work (Slow down)
+
 A, S, D         : Look around, with swooping (tilt forward and back)                  <- Needs work (Not working currently)
+
 R               : Reset, move everything back to 0
+
 ' ' (Space key) : Exit motion but hold position
 
 
